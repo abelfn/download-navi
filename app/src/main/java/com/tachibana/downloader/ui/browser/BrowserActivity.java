@@ -433,6 +433,8 @@ public class BrowserActivity extends AppCompatActivity
                 item.setChecked(!item.isChecked());
                 viewModel.enableDesktopMode(webView, item.isChecked());
                 webView.reload();
+                break;
+            case R.id.save_page_menu:
                 break;    
             case R.id.bookmarks_menu:
                 showBookmarks();
